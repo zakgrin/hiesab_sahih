@@ -1,0 +1,52 @@
+
+% Preamble for the Arabic book
+
+% Use the fancyhdr package for custom headers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\nouppercase{\rightmark}}
+\fancyhead[RO]{\nouppercase{\leftmark}}
+\fancyfoot[C]{\thepage}
+
+% Use the polyglossia package for better support of Arabic
+\usepackage{polyglossia}
+\setdefaultlanguage{arabic}
+\setotherlanguage{english}
+
+% Set the main font to an appropriate Arabic font
+\newfontfamily\arabicfont[Script=Arabic]{Amiri}
+\newfontfamily\arabicfonttt[Script=Arabic]{Amiri}
+
+% Redefine the chapter command to align to the right and remove numbering
+\makeatletter
+\renewcommand{\@makechapterhead}[1]{
+  \vspace*{50\p@}
+  {\parindent \z@ \raggedleft \normalfont
+    \interlinepenalty\@M
+    \Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }
+  \markboth{#1}{}
+}
+\makeatother
+
+% Redefine section numbering to use English numerals and include chapter number
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+% Ensure page numbers use Arabic numerals
+\renewcommand{\thepage}{\arabic{page}}
+
+% Include quran package for Ayat
+\usepackage{quran}
+%\setotherlanguage{arabic}
+%\setmainfont{Amiri}
+%\usepackage{bidi}
+
+% Load blindtext package for dummy text
+\usepackage{blindtext}
+% Using \linespread in the preamble changes 
+% line spacing without requiring additional
+% font-selection commands, such as \selectfont
+\linespread{2}
+

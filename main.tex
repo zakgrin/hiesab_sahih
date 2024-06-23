@@ -1,0 +1,32 @@
+
+\documentclass[14pt]{book}
+\usepackage[a5paper,top=1in,bottom=1in,left=0.75in,right=0.75in]{geometry}
+
+% Include the preamble
+\input{config/preamble.tex}
+
+% Title of the book
+\title{الحساب الصحيح من بنيان الحكم الرشيد}
+\author{
+    تأليف \\
+    زكريا يوسف محمد أبوقرين
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+% Include Chapter00
+\input{chapters/Chapter00.tex}
+
+% Include chapters
+\input{chapters/Chapter01.tex}
+\input{chapters/Chapter02.tex}
+
+% Include references (if using BibTeX)
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
