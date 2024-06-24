@@ -1,4 +1,3 @@
-
 % Preamble for the Arabic book
 
 % Use the fancyhdr package for custom headers
@@ -11,7 +10,7 @@
 
 % Use the polyglossia package for better support of Arabic
 \usepackage{polyglossia}
-\setdefaultlanguage{arabic}
+\setdefaultlanguage[numerals=maghrib]{arabic}
 \setotherlanguage{english}
 
 % Set the main font to an appropriate Arabic font
@@ -31,20 +30,15 @@
 }
 \makeatother
 
-% Redefine section numbering to use English numerals and include chapter number
-\renewcommand{\thesection}{\thechapter.\arabic{section}}
-
-% Ensure page numbers use Arabic numerals
+% Set the numerals to English (Western) for the Arabic language context
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\arabic{section}.\thechapter}
+\renewcommand{\thesubsection}{\arabic{subsection}.\thesection}
 \renewcommand{\thepage}{\arabic{page}}
 
 % Include quran package for Ayat
 \usepackage{quran}
-%\setotherlanguage{arabic}
-%\setmainfont{Amiri}
-%\usepackage{bidi}
 
-% Load blindtext package for dummy text
-\usepackage{blindtext}
 % Using \linespread in the preamble changes 
 % line spacing without requiring additional
 % font-selection commands, such as \selectfont
