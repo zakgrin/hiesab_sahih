@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: cover
+chapters:
+- file: chapters/dedication 
+- file: chapters/chapter_00
+- file: chapters/chapter_01
+- file: chapters/chapter_02
+- file: chapters/chapter_03
+- file: chapters/chapter_04
+- file: chapters/chapter_05
+- file: chapters/chapter_06
+- file: chapters/chapter_07
+- file: chapters/chapter_08
+
