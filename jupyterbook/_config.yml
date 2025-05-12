@@ -1,9 +1,19 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: الحساب الصحيح من بنيان الحكم الرشيد
-author: ابن يوسف زكريا الطرابلسي
-logo: logo.png
+title: 
+  "
+  الحساب الصحيح من بنيان الحكم الرشيد
+  <br>
+  <small>
+  تأليف: ابن يوسف زكريا الطرابلسي
+  </small>
+  "
+copyright: "2025"
+author: "تأليف: ابن يوسف زكريا الطرابلسي"
+announcement: "هذا البحث لا يزال قيد الإجراء"
+# logo: logo.png
+only_build_toc_files: true
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -21,12 +31,30 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/zakgrin/hiesab_in_islam  # Online location of your book
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
   path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   use_issues_button: true
   use_repository_button: true
+  use_multitoc_numbering: true
+  section_numbers: true
+  home_page_in_navbar: true
+  extra_footer: 
+    _static/footer.html
+  extra_css: "custom.css"
+  extra_navbar: |
+        <div>
+            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dearc" data-color="#FF5F5F" data-emoji=""  data-font="Bree" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+        </div>
+
+sphinx:
+  config:
+    # html_baseurl            : 'https://dipranjan.github.io/dsinterviewqns/'
+    html_show_copyright     : false
+  extra_extensions:
+    # - sphinx_sitemap
+    

@@ -1,6 +1,6 @@
 # الحساب الصحيح من بنيان الحكم الرشيد
 
 ```python
-jupyter-book build jupyterbook
-jupyter-book build --all --builder pdfhtml mynewbook/
+jupyter-book build --all jupyterbook
+jupyter-book build --all --builder pdfhtml jupyterbook/
 ```

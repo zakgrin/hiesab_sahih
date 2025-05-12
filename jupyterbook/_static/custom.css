@@ -1,0 +1,25 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+
+
+.center {
+  text-align: center;
+}
+
+h5 {
+    line-height: 1.5;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+p {
+    font-size: 18px;  
+  }
+
+  /* .bd-sidebar-secondary.bd-toc {
+    display: none;
+  } */

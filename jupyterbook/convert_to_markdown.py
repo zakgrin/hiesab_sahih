@@ -4,6 +4,7 @@ import pypandoc
 # Define the source and target directories
 source_dir = "chapters"
 target_dir = "chapters_rst"
+to_type = "rst"  # "rst", "md"
 
 # Create the target directory if it doesn't exist
 os.makedirs(target_dir, exist_ok=True)
@@ -16,7 +17,7 @@ for filename in os.listdir(source_dir):
 
         # Convert the LaTeX file to Markdown
         try:
-            pypandoc.convert_file(source_path, "rst", outputfile=target_path)
+            pypandoc.convert_file(source_path, to_type, outputfile=target_path)
             print(f"Converted {filename} to {target_path}")
         except Exception as e:
             print(f"Failed to convert {filename}: {e}")

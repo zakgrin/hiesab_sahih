@@ -2,6 +2,33 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-chapters:
-- file: chapters/
+root: cover
+parts: 
+  - caption:
+    numbered: False
+    chapters:
+    - file: chapters/dedication 
+    - file: chapters/chapter_00/section_00_01
+      sections:
+        - file: chapters/chapter_00/section_00_02
+  - caption:
+    numbered: True
+    chapters:
+    - file: chapters/chapter_01/index_01
+      sections:
+        - file: chapters/chapter_01/section_01_01
+        - file: chapters/chapter_01/section_01_02
+        - file: chapters/chapter_01/section_01_03
+    - file: chapters/chapter_01
+    - file: chapters/chapter_02
+    - file: chapters/chapter_03
+    - file: chapters/chapter_04
+    - file: chapters/chapter_05
+    - file: chapters/chapter_06
+    - file: chapters/chapter_07
+    - file: chapters/chapter_08
+  - caption:
+    numbered: False
+    chapters:
+    - file: chapters/references
+
