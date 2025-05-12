@@ -1,9 +1,8 @@
 body {
   direction: rtl;
+  text-align: right;
   unicode-bidi: embed;
 }
-
-
 
 .center {
   text-align: center;
@@ -15,11 +14,34 @@ h5 {
     margin-bottom: 0.5em;
 }
 
-
 p {
     font-size: 18px;  
-  }
+}
 
-  /* .bd-sidebar-secondary.bd-toc {
+.bd-sidebar-secondary {
     display: none;
-  } */
+}
+
+blockquote {
+  direction: rtl;
+  text-align: right;
+  padding: 10px;
+  border-left: none;
+  border-right: 4px solid #04784a; 
+}
+
+/* blockquote.attribution {
+  direction: rtl;
+  text-align: right;
+  font-style: italic;
+  color: rgb(187, 10, 10) !important;
+  margin-top: 12px;
+} */
+
+/* .bd-content, */
+/* .bd-article-container, */
+/* .bd-article {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+} */
