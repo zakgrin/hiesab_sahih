@@ -19,7 +19,6 @@ parts:
         - file: chapters/chapter_01/section_01_01
         - file: chapters/chapter_01/section_01_02
         - file: chapters/chapter_01/section_01_03
-    - file: chapters/chapter_01
     - file: chapters/chapter_02
     - file: chapters/chapter_03
     - file: chapters/chapter_04

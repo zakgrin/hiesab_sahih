@@ -1,9 +1,6 @@
-# الرئيسية
-
 <div class="center">
 
 <div style="margin-top: 100px;"></div>
-
 
 <h1>
 الحساب الصحيح من بنيان الحكم الرشيد

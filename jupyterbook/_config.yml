@@ -11,8 +11,8 @@ title:
   ابن يوسف زكريا الطرابلسي
   </small>
   "
-# copyright: "2025"
-author: "تأليف: ابن يوسف زكريا الطرابلسي"
+copyright: "2025"
+author: "ابن يوسف زكريا الطرابلسي"
 announcement: "هذا البحث لا يزال قيد الإجراء"
 # logo: logo.png
 only_build_toc_files: true
@@ -58,22 +58,25 @@ parse:
 html:
   use_issues_button: false
   use_repository_button: true
-  use_multitoc_numbering: false
-  section_numbers: false
+  use_multitoc_numbering: true
+  section_numbers: true
   home_page_in_navbar: false
-  secondary_sidebar_items: ["page-toc"]
+  # secondary_sidebar_items: ["page-toc"]
   extra_css: "custom.css"
-  # extra_footer: 
-  #   _static/footer.html
+  extra_footer: "footer.html"
   extra_navbar: |
-        <div>
-            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="dearc" data-color="#FF5F5F" data-emoji=""  data-font="Bree" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-        </div>
-
+        <h1>
+            your html Zakariya
+        </h1>
+  extra_footer: |
+    <p>
+    ... Add license info here...
+    </p>
 sphinx:
   config:
-    # html_baseurl            : 'https://dipranjan.github.io/dsinterviewqns/'
-    html_show_copyright     : false
+    language: ar
+    # html_baseurl: 'https://dipranjan.github.io/dsinterviewqns/'
+    html_show_copyright: false
   extra_extensions:
     # - attrs_block
     # - sphinx_sitemap
