@@ -15,22 +15,40 @@ h5 {
 }
 
 p {
-    font-size: 18px;  
+    font-size: 20px;  
 }
-
-blockquote {
-  direction: rtl;
-  text-align: right;
-  padding: 10px;
-  border-left: none;
-  border-right: 4px solid #04784a; 
-}
-
-/* .bd-sidebar-primary {
-  direction: ltr; 
-  overflow-y: auto;
-} */
 
 .bd-main .bd-content .bd-article-container {
   max-width: 100%;
+}
+
+/* blockquote, */
+blockquote.quran {
+  direction: rtl;
+  text-align: right;
+  border-radius: 20px;
+  padding: 10px;
+  border-left: none;
+  border-right: 4px solid #00ffff;
+  background-color: #29313d;
+}
+
+blockquote.hadith {
+  direction: rtl;
+  text-align: right;
+  border-radius: 20px;
+  padding: 10px;
+  border-left: none;
+  border-right: 4px solid #11ff00;
+  background-color: #29313d;
+}
+
+blockquote.athar {
+  direction: rtl;
+  text-align: right;
+  border-radius: 20px;
+  padding: 10px;
+  border-left: none;
+  border-right: 4px solid #002aff;
+  background-color: #29313d;
 }

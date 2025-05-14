@@ -7,10 +7,9 @@ parts:
   - caption:
     numbered: False
     chapters:
-    - file: chapters/dedication 
+    - file: chapters/chapter_00/dedication 
     - file: chapters/chapter_00/section_00_01
-      sections:
-        - file: chapters/chapter_00/section_00_02
+    - file: chapters/chapter_00/section_00_02
   - caption:
     numbered: True
     chapters:
