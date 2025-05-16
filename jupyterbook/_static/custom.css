@@ -52,3 +52,19 @@ blockquote.athar {
   border-right: 4px solid #002aff;
   background-color: #29313d;
 }
+
+
+.parent-container {
+  text-align: left; /* Align child elements to the left */
+  /* Ensure that the parent does not impose RTL alignment on child positioning */
+}
+
+/* Source element styles */
+.source {
+  background-color: #79ec15;
+  color: #fff;
+    margin-left: 0; /* Ensure the margin starts from the left */
+    text-align: left; /* Align text within the element to the left */
+    direction: ltr;
+    display:inline-block; /* Ensure the element takes up its own line */
+}
