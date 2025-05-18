@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Project information:
 project = "Hiesab in Islam"
-author = ": ابن يوسف زكريا الطرابلسي"
+author = ": ابن يوسف زكريا الطرابلسي. حقوق الطبع والنشر محفوظة. يمنع نسخ هذا الكتاب أو إعادة توزيعه أو استخدامه في أي شكل من الأشكال دون إذن كتابي مسبق من المؤلف."
 disclaimer = "Third-party components are copyrighted by their respective authors"
 copyright = f"{datetime.now().year}, {author}. {disclaimer}"
 master_doc = "cover"
