@@ -31,6 +31,7 @@ blockquote.quran {
   border-left: none;
   border-right: 4px solid #00ffff;
   background-color: #29313d;
+  margin-bottom: 0;
 }
 
 blockquote.hadith {
@@ -41,6 +42,7 @@ blockquote.hadith {
   border-left: none;
   border-right: 4px solid #11ff00;
   background-color: #29313d;
+  margin-bottom: 0;
 }
 
 blockquote.athar {
@@ -51,6 +53,18 @@ blockquote.athar {
   border-left: none;
   border-right: 4px solid #002aff;
   background-color: #29313d;
+  margin-bottom: 0;
+}
+
+blockquote.tafsir {
+  direction: rtl;
+  text-align: right;
+  border-radius: 20px;
+  padding: 10px;
+  border-left: none;
+  border-right: 4px solid #ff9500;
+  background-color: #29313d;
+  margin-bottom: 0;
 }
 
 
