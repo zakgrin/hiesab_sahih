@@ -11,7 +11,6 @@
 ::::{grid} auto
 :margin: 0
 :gutter: 1
-:child-align: end
 
 :::{grid-item}
 {bdg-link-primary-line}`جامع المسائل <https://shamela.ws/book/145376/2687#p2>`
