@@ -67,7 +67,7 @@ html_theme_options = {
         "deepnote_url": "",
     },
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/zakgrin/hiesab_in_islam",
+    # "repository_url": "https://github.com/zakgrin/hiesab_in_islam",
     "repository_branch": "main",
     "extra_footer": "",
     "home_page_in_toc": False,
@@ -81,7 +81,7 @@ html_theme_options = {
     "use_edit_page_button": False,
     "use_issues_button": False,
 }
-html_title = " الحساب الصحيح من بنيان الحكم الرشيد <br> <small> تأليف: <br> ابن يوسف زكريا الطرابلسي </small> "
+html_title = "الحساب الصحيح من بنيان الحكم الرشيد - ابن يوسف زكريا الطرابلسي"
 latex_engine = "pdflatex"
 myst_enable_extensions = [
     "attrs_block",
