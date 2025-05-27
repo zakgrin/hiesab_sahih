@@ -81,7 +81,10 @@ html_theme_options = {
     "use_edit_page_button": False,
     "use_issues_button": False,
 }
-html_title = "الحساب الصحيح من بنيان الحكم الرشيد - ابن يوسف زكريا الطرابلسي"
+html_title = (
+    "الحساب الصحيح من بنيان الحكم الرشيد"
+    "<br><small>تأليف:<br>ابن يوسف زكريا الطرابلسي</small>"
+)
 latex_engine = "pdflatex"
 myst_enable_extensions = [
     "attrs_block",
