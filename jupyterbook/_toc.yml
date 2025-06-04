@@ -20,21 +20,21 @@ parts:
         - file: chapters/chapter_01/section_01_03 
         - file: chapters/chapter_01/section_01_04
         - file: chapters/chapter_01/section_01_05
-        - file: chapters/chapter_01/section_01_06
-        - file: chapters/chapter_01/section_01_07
-        - file: chapters/chapter_01/section_01_08
-        - file: chapters/chapter_01/section_01_09
-        - file: chapters/chapter_01/section_01_10
-        - file: chapters/chapter_01/section_01_11
-        - file: chapters/chapter_01/section_01_12
-        - file: chapters/chapter_01/section_01_13
-    - file: chapters/chapter_02
-    - file: chapters/chapter_03
-    - file: chapters/chapter_04
-    - file: chapters/chapter_05
-    - file: chapters/chapter_06
-    - file: chapters/chapter_07
-    - file: chapters/chapter_08
+    #     - file: chapters/chapter_01/section_01_06
+    #     - file: chapters/chapter_01/section_01_07
+    #     - file: chapters/chapter_01/section_01_08
+    #     - file: chapters/chapter_01/section_01_09
+    #     - file: chapters/chapter_01/section_01_10
+    #     - file: chapters/chapter_01/section_01_11
+    #     - file: chapters/chapter_01/section_01_12
+    #     - file: chapters/chapter_01/section_01_13
+    # - file: chapters/chapter_02
+    # - file: chapters/chapter_03
+    # - file: chapters/chapter_04
+    # - file: chapters/chapter_05
+    # - file: chapters/chapter_06
+    # - file: chapters/chapter_07
+    # - file: chapters/chapter_08
   - caption:
     numbered: False
     chapters:
