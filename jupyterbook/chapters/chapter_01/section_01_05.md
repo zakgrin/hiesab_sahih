@@ -250,6 +250,10 @@
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/mZ7zMBvK-tI?si=Dq9gUeSGjHr3EAqx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+<div style="margin-top: 1em; margin-bottom: 1em;">
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/XZeAEhmwOBc?si=7Z5GJDFN3J5i0nRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 **الهوامش**
 
 [^1]: يعرف هذا المجال اليوم بالرياضيات البحثة وقد وجد فيه أن أغلب
