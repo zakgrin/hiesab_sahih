@@ -20,7 +20,7 @@ parts:
         - file: chapters/chapter_01/section_01_03 
         - file: chapters/chapter_01/section_01_04
         - file: chapters/chapter_01/section_01_05
-    #     - file: chapters/chapter_01/section_01_06
+        - file: chapters/chapter_01/section_01_06
     #     - file: chapters/chapter_01/section_01_07
     #     - file: chapters/chapter_01/section_01_08
     #     - file: chapters/chapter_01/section_01_09
