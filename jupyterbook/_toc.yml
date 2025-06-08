@@ -7,20 +7,20 @@ parts:
   - caption:
     numbered: False
     chapters:
-    - file: chapters/chapter_00/dedication 
-    - file: chapters/chapter_00/section_00_01
-    - file: chapters/chapter_00/section_00_02
+    - file: chapters/00/00_00 
+    - file: chapters/00/00_01
+    - file: chapters/00/00_02
   - caption:
     numbered: True
     chapters:
-    - file: chapters/chapter_01/index_01
+    - file: chapters/01/01_00
       sections:
-        - file: chapters/chapter_01/section_01_01
-        - file: chapters/chapter_01/section_01_02
-        - file: chapters/chapter_01/section_01_03 
-        - file: chapters/chapter_01/section_01_04
-        - file: chapters/chapter_01/section_01_05
-        - file: chapters/chapter_01/section_01_06
+        - file: chapters/01/01_01
+        - file: chapters/01/01_02
+        - file: chapters/01/01_03 
+        - file: chapters/01/01_04
+        - file: chapters/01/01_05
+        - file: chapters/01/01_06
     #     - file: chapters/chapter_01/section_01_07
     #     - file: chapters/chapter_01/section_01_08
     #     - file: chapters/chapter_01/section_01_09
