@@ -21,6 +21,7 @@ parts:
         - file: chapters/01/01_04
         - file: chapters/01/01_05
         - file: chapters/01/01_06
+        - file: chapters/01/01_07
     #     - file: chapters/chapter_01/section_01_07
     #     - file: chapters/chapter_01/section_01_08
     #     - file: chapters/chapter_01/section_01_09
