@@ -37,7 +37,7 @@
         <mxCell id="i5PZDauiZBmkrLSwWij1-12" value="&lt;font&gt;دورة كل 24 ساعة&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="453" y="238" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i5PZDauiZBmkrLSwWij1-13" value="&lt;font&gt;دورة كل 29 أو 30 يوم&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="i5PZDauiZBmkrLSwWij1-13" value="&lt;font&gt;دورة كل 29 أو 30 يوم&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="280.87" y="305" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h8a1iX2xHfR-lFt3yGJt-1" value="&lt;font&gt;&amp;nbsp;دورة كل 29 أو 30 يوم&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" parent="1" vertex="1">
@@ -94,17 +94,17 @@
         <mxCell id="MASJn5TaWNMMpVLSmvWF-2" value="&amp;nbsp;الليل&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="353.9951813906673" y="211.99561413248793" width="152.39" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://managedmayhemremovals.com/wp-content/uploads/2020/05/creative-arrow-png-5-png-image-red-arrow-icon-11562849743r6oikfxvqd.png;rotation=0;" vertex="1" parent="1">
+        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://managedmayhemremovals.com/wp-content/uploads/2020/05/creative-arrow-png-5-png-image-red-arrow-icon-11562849743r6oikfxvqd.png;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="796" y="266.13" width="56" height="22.87" as="geometry" />
         </mxCell>
-        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://managedmayhemremovals.com/wp-content/uploads/2020/05/creative-arrow-png-5-png-image-red-arrow-icon-11562849743r6oikfxvqd.png;rotation=-180;" vertex="1" parent="1">
+        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://managedmayhemremovals.com/wp-content/uploads/2020/05/creative-arrow-png-5-png-image-red-arrow-icon-11562849743r6oikfxvqd.png;rotation=-180;" parent="1" vertex="1">
           <mxGeometry x="796" y="224.26" width="56" height="22.87" as="geometry" />
         </mxCell>
-        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-3" value="&lt;font style=&quot;&quot;&gt;دورة كل 27 يوم&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-3" value="&lt;font style=&quot;&quot;&gt;دورة كل 27 يوم&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="792" y="245.13" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-4" value="&amp;nbsp;السباحة&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" vertex="1" parent="1">
-          <mxGeometry x="796" y="194.26" width="152.39" height="30" as="geometry" />
+        <mxCell id="Ma5mMRnx5FbmCvQDP5x0-4" value="&amp;nbsp;السباحة&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" parent="1" vertex="1">
+          <mxGeometry x="820" y="186.13" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
