@@ -41,5 +41,6 @@ parts:
   - caption:
     numbered: False
     chapters:
+    # - file: chapters/appendix
     - file: chapters/references
 
