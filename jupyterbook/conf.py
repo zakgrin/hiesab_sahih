@@ -57,6 +57,7 @@ html_sourcelink_suffix = ""
 html_static_path = ["_static"]
 html_theme = "sphinx_book_theme"
 html_theme_options = {
+    "secondary_sidebar_items": [],  # ["page-toc"],
     "search_bar_text": "               بحث",
     "launch_buttons": {
         "notebook_interface": "classic",
