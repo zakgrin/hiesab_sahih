@@ -48,7 +48,7 @@
         <mxCell id="Ui0WrDvxoQSx4pUsqPV_-2" value="&lt;font style=&quot;&quot;&gt;دورة كل 24 ساعة&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="338.56" y="310" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ui0WrDvxoQSx4pUsqPV_-3" value="&lt;font&gt;&amp;nbsp;دورة كل 365 يوم&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" parent="1" vertex="1">
+        <mxCell id="Ui0WrDvxoQSx4pUsqPV_-3" value="&lt;font&gt;&amp;nbsp;دورة كل 365.25 يوم&amp;nbsp;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" parent="1" vertex="1">
           <mxGeometry x="468.81" y="450" width="152.39" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_3Yr8SlUUemhmtY_NbIF-1" value="&amp;nbsp;الفلك&amp;nbsp;&lt;div&gt;&amp;nbsp;(فصول السنة)&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=light-dark(#FFFFFF, #ffffff);fontStyle=1;labelBorderColor=none;labelBackgroundColor=#4E4E4E;" parent="1" vertex="1">
