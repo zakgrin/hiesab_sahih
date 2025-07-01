@@ -61,7 +61,7 @@ html:
   use_multitoc_numbering: true
   section_numbers: true
   home_page_in_navbar: false
-  # secondary_sidebar_items: ["page-toc"]
+  secondary_sidebar_items: ["page-toc"]
   extra_css: "custom.css"
   extra_footer: "footer.html"
   extra_navbar: |
