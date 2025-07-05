@@ -22,52 +22,6 @@ p {
   max-width: 100%;
 }
 
-/* blockquote, */
-blockquote.quran {
-  direction: rtl;
-  text-align: right;
-  border-radius: 20px;
-  padding: 10px;
-  border-left: none;
-  border-right: 4px solid #00ffff;
-  background-color: #29313d;
-  margin-bottom: 0;
-}
-
-blockquote.hadith {
-  direction: rtl;
-  text-align: right;
-  border-radius: 20px;
-  padding: 10px;
-  border-left: none;
-  border-right: 4px solid #11ff00;
-  background-color: #29313d;
-  margin-bottom: 0;
-}
-
-blockquote.athar {
-  direction: rtl;
-  text-align: right;
-  border-radius: 20px;
-  padding: 10px;
-  border-left: none;
-  border-right: 4px solid #002aff;
-  background-color: #29313d;
-  margin-bottom: 0;
-}
-
-blockquote.tafsir {
-  direction: rtl;
-  text-align: right;
-  border-radius: 20px;
-  padding: 10px;
-  border-left: none;
-  border-right: 4px solid #ff9500;
-  background-color: #29313d;
-  margin-bottom: 0;
-}
-
-
 .parent-container {
   text-align: left; /* Align child elements to the left */
   /* Ensure that the parent does not impose RTL alignment on child positioning */
@@ -81,4 +35,100 @@ blockquote.tafsir {
     text-align: left; /* Align text within the element to the left */
     direction: ltr;
     display:inline-block; /* Ensure the element takes up its own line */
+}
+
+.bd-theme-light {
+  /* Light Mode Palette */
+}
+
+/* Dark Mode Palette (defined within the dark theme scope) */
+:root {
+  --light-background: #F8F4E3; /* Islamic Beige */
+  --light-text-primary: #4A433C; /* Warm dark brown text */
+  --light-border-quran: #7FB9B9; /* Soft teal/aqua */
+  --light-border-hadith: #8BC34A; /* Natural green */
+  --light-border-athar: #6495ED; /* Calm blue */
+  --light-border-tafsir: #E67E22; /* Warm orange/terracotta */
+  --dark-background: #29313d; /* Original dark background */
+  --dark-text-primary: #ffffff; /* Light text */
+  --dark-border-quran: #00ffff; /* Original bright cyan */
+  --dark-border-hadith: #11ff00; /* Original bright green */
+  --dark-border-athar: #002aff; /* Original bright blue */
+  --dark-border-tafsir: #ff9500; /* Original bright orange */
+}
+
+/*
+.bd-theme-light blockquote.quran {
+  border-right: 4px solid var(--light-border-quran);
+  background-color: var(--light-bg-primary);
+  color: var(--light-text-primary);
+}
+.bd-theme-dark blockquote.quran {
+    border-right: 4px solid var(--dark-border-quran);
+    background-color: var(--dark-bg-primary);
+    color: var(--dark-text-primary);
+}
+
+.bd-theme-light blockquote.hadith {
+  border-right: 4px solid var(--light-border-hadith);
+  background-color: var(--light-bg-primary);
+  color: var(--light-text-primary);
+}
+.bd-theme-dark blockquote.hadith {
+  border-right: 4px solid var(--dark-border-hadith);
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+}
+
+.bd-theme-light blockquote.athar {
+  border-right: 4px solid var(--light-border-athar);
+  background-color: var(--light-bg-primary);
+  color: var(--light-text-primary);
+}
+.bd-theme-dark blockquote.athar {
+  border-right: 4px solid var(--dark-border-athar);
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+
+}
+
+.bd-theme-light blockquote.tafsir {
+  border-right: 4px solid var(--light-border-tafsir);
+  background-color: var(--light-bg-primary);
+  color: var(--light-text-primary);
+}
+.bd-theme-dark blockquote.tafsir {
+  border-right: 4px solid var(--dark-border-tafsir);
+  background-color: var(--dark-bg-primary);
+  color: var(--dark-text-primary);
+} */
+
+blockquote {
+    direction: rtl;
+    text-align: right;
+    border-radius: 20px;
+    padding: 10px;
+    border-left: none;
+    margin-bottom: 0;
+}
+
+blockquote.quran {
+    border-right: 4px solid var(--dark-border-quran);
+    background-color: var(--dark-background);
+}
+
+blockquote.hadith {
+  border-right: 4px solid var(--dark-border-hadith);
+  background-color: var(--dark-background);
+
+}
+
+blockquote.athar {
+  border-right: 4px solid var(--dark-border-athar);
+  background-color: var(--dark-background);
+}
+
+blockquote.tafsir {
+  border-right: 4px solid var(--dark-border-tafsir);
+  background-color: var(--dark-background);
 }
