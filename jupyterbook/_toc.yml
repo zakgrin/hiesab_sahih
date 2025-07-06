@@ -17,7 +17,8 @@ parts:
       sections:
         - file: chapters/01/01_01
         - file: chapters/01/01_02
-        - file: chapters/01/01_03 
+        - file: chapters/01/01_03
+        - file: chapters/01/01_03b
         - file: chapters/01/01_04
         - file: chapters/01/01_05
         - file: chapters/01/01_06
