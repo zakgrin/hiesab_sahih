@@ -42,8 +42,8 @@ parts:
   - caption:
     numbered: False
     chapters:
-    - file: chapters/09/00_00 
-    - file: chapters/09/00_01
+    - file: chapters/09/09_00 
+    - file: chapters/09/09_01
   - caption:
     numbered: False
     chapters:
