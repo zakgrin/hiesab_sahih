@@ -40,10 +40,11 @@ parts:
     # - file: chapters/chapter_07
     # - file: chapters/chapter_08
   - caption:
-    numbered: False
+    numbered: True
     chapters:
-    - file: chapters/09/09_00 
-    - file: chapters/09/09_01
+    - file: chapters/09/09_00
+      sections:
+        - file: chapters/09/09_01
   - caption:
     numbered: False
     chapters:
