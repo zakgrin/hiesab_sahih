@@ -828,6 +828,40 @@ https://ibn-saadi.com/portal/book/58?chapter=1350&bookid=58&page_number=363&firs
 والواجبات قد ينفع صاحبه في الدنيا ولكن لا ينفعه في الآخرة وإن كان علما
 مباحا أو مطلوبا في أصله.
 
+وعن جابر رضي الله عنه أن النبي ﷺ قال:
+
+{attribution="الجامع الصغير: 13326 وصححه الألباني." class="hadith"}
+> لا تعلموا العلم لتباهوا به العلماء أو تماروا به السفهاء ولا لتجترئوا به المجالس فمن فعل ذلك فالنار النار
+> {cite}`jamaaSagheer` {cite}`albani_SahihJamaa`
+::::{grid} auto
+:margin: 0
+:gutter: 1
+
+:::{grid-item}
+{bdg-link-primary-line}`الجامع الصغير <https://shamela.ws/book/21659/13326#p1>`
+:::
+:::{grid-item}
+{bdg-link-primary-line}`صحيح الجامع الصغير <https://shamela.ws/book/10757/1163#p17>`
+:::
+::::
+
+وعن أبي أمامة رضي الله عنه أن النبي  ﷺ قال:
+
+{attribution="الجامع الصغير: 13322 وصححه الألباني." class="hadith"}
+> لا تعجبوا بعمل عامل حتى تنظروا بم يختم له
+> {cite}`jamaaSagheer` {cite}`albani_SahihJamaa`
+::::{grid} auto
+:margin: 0
+:gutter: 1
+
+:::{grid-item}
+{bdg-link-primary-line}`الجامع الصغير <https://shamela.ws/book/21659/13322#p1>`
+:::
+:::{grid-item}
+{bdg-link-primary-line}`صحيح الجامع الصغير <https://shamela.ws/book/10757/1163#p9>`
+:::
+::::
+
 وأما الميزان فالمراد به العدل، وفي اللغة هو الإنصاف، والإنتصاف،
 والإعتدال، والتوسط، والإستقامة، والتسوية في الحقوق، ومنه الحساب ولهذا
 سماه الخوارزمي الجبر والمقابلة. ولهذا يكون المراد بالميزان بالنسبة
