@@ -45,6 +45,9 @@ parts:
     - file: chapters/09/09_00
       sections:
         - file: chapters/09/09_01
+  - caption:
+    numbered: False
+    chapters:
     - file: chapters/10/10_00
       sections:
         - file: chapters/10/10_01

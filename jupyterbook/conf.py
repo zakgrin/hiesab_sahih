@@ -49,12 +49,17 @@ external_toc_exclude_missing = True
 external_toc_path = "_toc.yml"
 
 html_baseurl = ""
-html_css_files = ["custom.css"]
+html_css_files = [
+    "custom.css",
+    "print.css",
+]
 html_favicon = ""
 html_logo = ""
 html_show_copyright = False
 html_sourcelink_suffix = ""
-html_static_path = ["_static"]
+html_static_path = [
+    "_static",
+]
 html_theme = "sphinx_book_theme"
 html_theme_options = {
     # "secondary_sidebar_items": ["page-toc"],
@@ -87,6 +92,15 @@ html_title = (
     "<br><small>تأليف:<br>ابن يوسف زكريا الطرابلسي</small>"
 )
 latex_engine = "pdflatex"
+latex_elements = {
+    "preamble": r"""
+        \usepackage{fancyhdr}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{0pt}
+        """,
+}
 myst_enable_extensions = [
     "attrs_block",
     "colon_fence",
