@@ -49,6 +49,7 @@ p {
   --light-border-hadith: #8BC34A; /* Natural green */
   --light-border-athar: #6495ED; /* Calm blue */
   --light-border-tafsir: #E67E22; /* Warm orange/terracotta */
+  
   --dark-background: #29313d; /* Original dark background */
   --dark-text-primary: #ffffff; /* Light text */
   --dark-border-quran: #00ffff; /* Original bright cyan */
@@ -57,51 +58,32 @@ p {
   --dark-border-tafsir: #ff9500; /* Original bright orange */
 }
 
-/*
-.bd-theme-light blockquote.quran {
-  border-right: 4px solid var(--light-border-quran);
-  background-color: var(--light-bg-primary);
-  color: var(--light-text-primary);
-}
-.bd-theme-dark blockquote.quran {
-    border-right: 4px solid var(--dark-border-quran);
-    background-color: var(--dark-bg-primary);
-    color: var(--dark-text-primary);
+html[data-mode="light"] {
+  --background-color: var(--light-background);
+  --text-color: var(--light-text-primary);
+  --border-quran: var(--light-border-quran);
+  --border-hadith: var(--light-border-hadith);
+  --border-athar: var(--light-border-athar);
+  --border-tafsir: var(--light-border-tafsir);
 }
 
-.bd-theme-light blockquote.hadith {
-  border-right: 4px solid var(--light-border-hadith);
-  background-color: var(--light-bg-primary);
-  color: var(--light-text-primary);
-}
-.bd-theme-dark blockquote.hadith {
-  border-right: 4px solid var(--dark-border-hadith);
-  background-color: var(--dark-bg-primary);
-  color: var(--dark-text-primary);
+html[data-mode="dark"] {
+  --background-color: var(--dark-background);
+  --text-color: var(--dark-text-primary);
+  --border-quran: var(--dark-border-quran);
+  --border-hadith: var(--dark-border-hadith);
+  --border-athar: var(--dark-border-athar);
+  --border-tafsir: var(--dark-border-tafsir);
 }
 
-.bd-theme-light blockquote.athar {
-  border-right: 4px solid var(--light-border-athar);
-  background-color: var(--light-bg-primary);
-  color: var(--light-text-primary);
+html[data-mode="auto"] {
+  --background-color: var(--light-background);
+  --text-color: #000000;
+  --border-quran: var(--dark-border-quran);
+  --border-hadith: var(--dark-border-hadith);
+  --border-athar: var(--dark-border-athar);
+  --border-tafsir: var(--dark-border-tafsir);
 }
-.bd-theme-dark blockquote.athar {
-  border-right: 4px solid var(--dark-border-athar);
-  background-color: var(--dark-bg-primary);
-  color: var(--dark-text-primary);
-
-}
-
-.bd-theme-light blockquote.tafsir {
-  border-right: 4px solid var(--light-border-tafsir);
-  background-color: var(--light-bg-primary);
-  color: var(--light-text-primary);
-}
-.bd-theme-dark blockquote.tafsir {
-  border-right: 4px solid var(--dark-border-tafsir);
-  background-color: var(--dark-bg-primary);
-  color: var(--dark-text-primary);
-} */
 
 blockquote {
     direction: rtl;
@@ -110,25 +92,27 @@ blockquote {
     padding: 10px;
     border-left: none;
     margin-bottom: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 blockquote.quran {
-    border-right: 4px solid var(--dark-border-quran);
-    background-color: var(--dark-background);
+    border-right: 4px solid var(--border-quran);
+    border-left: 4px solid var(--border-quran);
 }
 
 blockquote.hadith {
-  border-right: 4px solid var(--dark-border-hadith);
-  background-color: var(--dark-background);
+  border-right: 4px solid var(--border-hadith);
+  border-left: 4px solid var(--border-hadith);
 
 }
 
 blockquote.athar {
-  border-right: 4px solid var(--dark-border-athar);
-  background-color: var(--dark-background);
+  border-right: 4px solid var(--border-athar);
+  border-left: 4px solid var(--border-athar);
 }
 
 blockquote.tafsir {
-  border-right: 4px solid var(--dark-border-tafsir);
-  background-color: var(--dark-background);
+  border-right: 4px solid var(--border-tafsir);
+  border-left: 4px solid var(--border-tafsir);
 }

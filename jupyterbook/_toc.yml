@@ -3,6 +3,9 @@
 
 format: jb-book
 root: cover
+# chapters:
+# - file: chapters/10/10_01
+# - file: chapters/references
 parts: 
   - caption:
     numbered: False
