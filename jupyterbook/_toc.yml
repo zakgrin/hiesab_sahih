@@ -54,6 +54,7 @@ parts:
     - file: chapters/10/10_00
       sections:
         - file: chapters/10/10_01
+        - file: chapters/10/10_02
   - caption:
     numbered: False
     chapters:
