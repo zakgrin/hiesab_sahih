@@ -87,10 +87,7 @@ html_theme_options = {
     "use_edit_page_button": False,
     "use_issues_button": False,
 }
-html_title = (
-    "الحساب الصحيح من بنيان الحكم الرشيد"
-    "<br><small>تأليف:<br>ابن يوسف زكريا الطرابلسي</small>"
-)
+html_title = "الحساب الصحيح من بنيان الحكم الرشيد"
 latex_engine = "pdflatex"
 latex_elements = {
     "preamble": r"""

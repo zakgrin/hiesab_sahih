@@ -4,12 +4,6 @@
 title: 
   "
   الحساب الصحيح من بنيان الحكم الرشيد
-  <br>
-  <small>
-  تأليف:
-  <br>
-  ابن يوسف زكريا الطرابلسي
-  </small>
   "
 copyright: "2025"
 author: "ابن يوسف زكريا الطرابلسي"
@@ -62,7 +56,10 @@ html:
   section_numbers: true
   home_page_in_navbar: false
   secondary_sidebar_items: ["page-toc"]
-  extra_css: "custom.css"
+  css:
+    - custom.css
+    - print.css
+  extra_css: ["custom.css", "print.css"]
   extra_footer: "footer.html"
   extra_navbar: |
         <h1>

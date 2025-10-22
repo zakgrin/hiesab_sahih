@@ -12,7 +12,7 @@
     }
 
     @top-left {
-        content: "اين يوسف زكريا أبوقرين";
+        content: "ابن يوسف زكريا الطرابلسي";
         font-size: 12pt;
         font-weight: bold;
     }
@@ -27,4 +27,10 @@
   @bottom-center {
     content: normal; /* hide page number only page 1 */
   }
+}
+
+@media print {
+    .bd-toc {
+        visibility: hidden;
+    }
 }
