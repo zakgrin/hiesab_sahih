@@ -1,8 +1,6 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 
-format: jb-book
-root: chapters/10/10_01
-chapters:
-- file: chapters/references
+format: jb-article
+root: cover
 

@@ -1,5 +1,9 @@
 # أدلة أقسام الميزان وأهميتها
 
+```{contents}
+:depth: 2
+```
+
 <div align="center" style="page-break-before:always;">
 <br>
 <h3>
@@ -1425,3 +1429,8 @@ https://shamela.ws/book/30017/858#p6
 وجزاكم الله خيرا،
 
 ابن يوسف زكريا الطرابلسي
+
+## المراجع
+
+```{bibliography}
+```

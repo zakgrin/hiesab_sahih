@@ -1,37 +1,24 @@
+#######################################################################################
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
-
-title: 
-  "
-  الحساب الصحيح من بنيان الحكم الرشيد
-  "
+title: "الحساب الصحيح من بنيان الحكم الرشيد"
 copyright: "2025"
 author: "ابن يوسف زكريا الطرابلسي"
 announcement: "هذا البحث لا يزال قيد الإجراء"
-# logo: logo.png
+logo: ""
 only_build_toc_files: true
+exclude_patterns: [
+  chapters/01/*,
+]
 
-# Force re-execution of notebooks on each build.
+#######################################################################################
+# Execution settings
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: auto
 
-# Define the name of the latex output file for PDF builds
-latex:
-  latex_documents:
-    targetname: book.tex
-
-# Add a bibtex file so that we can create citations
-bibtex_bibfiles:
-  - references.bib
-
-# Information about where the book exists on the web
-repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
-  path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
-
-
+#######################################################################################
+# Parse and render settings
 parse:
   myst_enable_extensions:
     - attrs_block
@@ -46,21 +33,27 @@ parse:
     # - smartquotes
     - substitution
     - tasklist
+  myst_url_schemes: [mailto, http, https]
+  #  myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
-# Add GitHub buttons to your book
+#######################################################################################
+# HTML-specific settings
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  use_issues_button: false
+  favicon: ""  # A path to a favicon image
+  use_edit_page_button: false
   use_repository_button: true
+  use_issues_button: false
   use_multitoc_numbering: true
-  section_numbers: true
+  extra_footer: "footer.html"
   home_page_in_navbar: false
+  # baseurl: ""
+  section_numbers: true
   secondary_sidebar_items: ["page-toc"]
   css:
     - custom.css
     - print.css
   extra_css: ["custom.css", "print.css"]
-  extra_footer: "footer.html"
   extra_navbar: |
         <h1>
             your html Zakariya
@@ -77,6 +70,29 @@ sphinx:
   extra_extensions:
     # - attrs_block
     # - sphinx_sitemap
-  latex_elements:
-    preamble: r'\usepackage{quran}'
+  # latex_elements:
+  #   preamble: r'\usepackage{quran}'
+
+#######################################################################################
+# LaTeX-specific settings
+latex:
+  latex_engine: pdflatex
+  use_jupyterbook_latex: true # use sphinx-jupyterbook-latex for pdf builds as default
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  # path_to_book:   # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+
+
+
+
     
