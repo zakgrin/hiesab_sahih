@@ -23,7 +23,6 @@ parts:
         - file: chapters/01/01_01
         - file: chapters/01/01_02
         - file: chapters/01/01_03
-        - file: chapters/01/01_03b
         - file: chapters/01/01_04
         - file: chapters/01/01_05
         - file: chapters/01/01_06
@@ -38,7 +37,10 @@ parts:
     #     - file: chapters/chapter_01/section_01_11
     #     - file: chapters/chapter_01/section_01_12
     #     - file: chapters/chapter_01/section_01_13
-    # - file: chapters/chapter_02
+    - file: chapters/02/02_00
+      sections:
+        - file: chapters/02/02_01
+        - file: chapters/02/02_02
     # - file: chapters/chapter_03
     # - file: chapters/chapter_04
     # - file: chapters/chapter_05
