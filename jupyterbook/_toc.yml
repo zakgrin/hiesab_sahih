@@ -6,41 +6,41 @@ root: cover
 # chapters:
 # - file: chapters/10/10_01
 # - file: chapters/references
-parts: 
+parts:
   - caption:
     maxdepth: 1
     numbered: False
     chapters:
-    - file: chapters/00/00_00 
-    - file: chapters/00/00_01
-    - file: chapters/00/00_02
+      - file: chapters/00/00_00
+      - file: chapters/00/00_01
+      - file: chapters/00/00_02
   - caption:
     maxdepth: 1
     numbered: True
     chapters:
-    - file: chapters/01/01_00
-      sections:
-        - file: chapters/01/01_01
-        - file: chapters/01/01_02
-        - file: chapters/01/01_03
-        - file: chapters/01/01_04
-        - file: chapters/01/01_05
-        - file: chapters/01/01_06
-        - file: chapters/01/01_07
-        - file: chapters/01/01_08
-        - file: chapters/01/01_09
-        - file: chapters/01/01_10
-    #     - file: chapters/chapter_01/section_01_07
-    #     - file: chapters/chapter_01/section_01_08
-    #     - file: chapters/chapter_01/section_01_09
-    #     - file: chapters/chapter_01/section_01_10
-    #     - file: chapters/chapter_01/section_01_11
-    #     - file: chapters/chapter_01/section_01_12
-    #     - file: chapters/chapter_01/section_01_13
-    - file: chapters/02/02_00
-      sections:
-        - file: chapters/02/02_01
-        - file: chapters/02/02_02
+      - file: chapters/01/01_00
+        sections:
+          - file: chapters/01/01_01
+          - file: chapters/01/01_02
+          - file: chapters/01/01_03
+          - file: chapters/01/01_04
+          - file: chapters/01/01_05
+          - file: chapters/01/01_06
+          - file: chapters/01/01_07
+          - file: chapters/01/01_08
+          - file: chapters/01/01_09
+          - file: chapters/01/01_10
+      #     - file: chapters/chapter_01/section_01_07
+      #     - file: chapters/chapter_01/section_01_08
+      #     - file: chapters/chapter_01/section_01_09
+      #     - file: chapters/chapter_01/section_01_10
+      #     - file: chapters/chapter_01/section_01_11
+      #     - file: chapters/chapter_01/section_01_12
+      #     - file: chapters/chapter_01/section_01_13
+      - file: chapters/02/02_00
+        sections:
+          - file: chapters/02/02_01
+          - file: chapters/02/02_02
     # - file: chapters/chapter_03
     # - file: chapters/chapter_04
     # - file: chapters/chapter_05
@@ -51,20 +51,19 @@ parts:
     maxdepth: 1
     numbered: False
     chapters:
-    - file: chapters/09/09_00
-      sections:
-        - file: chapters/09/09_01
+      - file: chapters/09/09_00
+        sections:
+          - file: chapters/09/09_01
   - caption:
     maxdepth: 1
     numbered: False
     chapters:
-    - file: chapters/10/10_00
-      sections:
-        - file: chapters/10/10_01
-        - file: chapters/10/10_02
+      - file: chapters/10/10_00
+        sections:
+          - file: chapters/10/10_01
+          - file: chapters/10/10_02
   - caption:
     numbered: False
     chapters:
-    # - file: chapters/appendix
-    - file: chapters/references
-
+      # - file: chapters/appendix
+      - file: chapters/references
