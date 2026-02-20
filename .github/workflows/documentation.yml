@@ -50,8 +50,8 @@ jobs:
           cd jupyterbook/
           # make html
           # sphinx-build -b html . _build/html/ -a
-          jupyter-book build --all jupyterbook
-          # sphinx-build jupyterbook jupyterbook/_build/html -a -b html
+          jupyter-book build --all .
+          # sphinx-build . _build/html -a -b html
 
       - name: Run ghp-import
         run: |
