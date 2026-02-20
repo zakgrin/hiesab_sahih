@@ -5,4 +5,5 @@ playwright
 ghp-import
 sphinx
 sphinx-togglebutton
+sphinx-copybutton
 # sphinx-book-theme
