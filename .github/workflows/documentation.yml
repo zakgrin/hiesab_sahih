@@ -41,9 +41,8 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get install libglfw3-dev libgles2-mesa-dev
-          python -m pip install --upgrade pip
-          python -m pip install -r jupyterbook/requirements.txt
-          python -m pip list
+          pip install --upgrade pip
+          pip install -r jupyterbook/requirements.txt
 
       - name: Build HTML
         run: |
