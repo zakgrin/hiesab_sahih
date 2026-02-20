@@ -6,4 +6,5 @@ ghp-import
 sphinx
 sphinx-togglebutton
 sphinx-copybutton
+myst-nb
 # sphinx-book-theme
