@@ -9,4 +9,5 @@ sphinx-copybutton
 myst-nb
 sphinx-thebe
 sphinx-comments
+sphinx_external_toc
 # sphinx-book-theme
