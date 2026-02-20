@@ -29,10 +29,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Set up Python 3.11.9
+      - name: Set up Python 3.13
         uses: actions/setup-python@v2
         with:
-          python-version: "3.11.9"
+          python-version: "3.13.0"
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Installation Process has started.
