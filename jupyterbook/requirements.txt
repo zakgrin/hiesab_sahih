@@ -12,3 +12,4 @@ sphinx-comments
 sphinx_external_toc
 sphinx_design
 sphinx-book-theme
+sphinxcontrib-bibtex
