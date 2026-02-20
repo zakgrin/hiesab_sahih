@@ -52,7 +52,7 @@ jobs:
           # sphinx-build -b html . _build/html/ -a
           # sphinx-build . _build/html -a -b html
           # jupyter-book build jupyterbook/
-          python -m sphinx -b html . _build/html/ -a
+          sphinx-build . ./_build/html -a -b html
 
       - name: Run ghp-import
         run: |
