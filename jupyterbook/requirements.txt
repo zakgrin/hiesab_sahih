@@ -4,11 +4,10 @@ jupyter-book>=2.0.0
 playwright
 ghp-import
 # sphinx
-sphinx-togglebutton
-sphinx-copybutton
-myst-nb
-sphinx-thebe
-sphinx-comments
-sphinx_external_toc
-sphinx_design
-# sphinx-book-theme
+# sphinx-togglebutton
+# sphinx-copybutton
+# myst-nb
+# sphinx-thebe
+# sphinx-comments
+# sphinx_external_toc
+# sphinx_design
