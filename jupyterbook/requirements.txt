@@ -8,4 +8,5 @@ sphinx-togglebutton
 sphinx-copybutton
 myst-nb
 sphinx-thebe
+sphinx-comments
 # sphinx-book-theme
