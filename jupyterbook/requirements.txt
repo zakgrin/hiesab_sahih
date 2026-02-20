@@ -1,10 +1,11 @@
-jupyter-book
+jupyter-book>=2.0.0
 # matplotlib
 # numpy
 playwright
 ghp-import
-sphinx
-sphinx-togglebutton
-sphinx-copybutton
-myst-nb
+# sphinx
+# sphinx-togglebutton
+# sphinx-copybutton
+# myst-nb
+# sphinx-thebe
 # sphinx-book-theme
