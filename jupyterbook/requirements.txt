@@ -1,7 +1,7 @@
 jupyter-book
-matplotlib
-numpy
+# matplotlib
+# numpy
 playwright
 ghp-import
-sphinx
-sphinx-book-theme
+# sphinx
+# sphinx-book-theme
