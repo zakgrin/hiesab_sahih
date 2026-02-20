@@ -3,3 +3,9 @@ jupyter-book>=2.0.0
 # numpy
 playwright
 ghp-import
+# sphinx
+sphinx-togglebutton
+sphinx-copybutton
+myst-nb
+sphinx-thebe
+# sphinx-book-theme
