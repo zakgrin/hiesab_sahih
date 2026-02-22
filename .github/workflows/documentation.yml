@@ -30,12 +30,12 @@ jobs:
 
       - name: Build HTML
         run: |
-          # cd jupyterbook/
-          # sphinx-build . ./_build/html -a -b html
+          cd jupyterbook/
+          python -m sphinx . ./_build/html -a -b html
           # make html
           # sphinx-build -b html . _build/html/ -a
           # sphinx-build . _build/html -a -b html
-          jupyter-book build jupyterbook/
+          # jupyter-book build jupyterbook/
 
       - name: Run ghp-import
         run: |
