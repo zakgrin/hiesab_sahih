@@ -40,7 +40,7 @@ parse:
 # HTML-specific settings
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: ""  # A path to a favicon image
+  favicon: "" # A path to a favicon image
   use_edit_page_button: false
   use_repository_button: true
   use_issues_button: false
@@ -54,14 +54,14 @@ html:
     - custom.css
     - print.css
   extra_css: ["custom.css", "print.css"]
-  extra_navbar: |
-        <h1>
-            your html Zakariya
-        </h1>
-  extra_footer: |
-    <p>
-    ... Add license info here...
-    </p>
+  # extra_navbar: |
+  #       <h1>
+  #           your html Zakariya
+  #       </h1>
+  # extra_footer: |
+  #   <p>
+  #   ... Add license info here...
+  #   </p>
 sphinx:
   config:
     language: ar
@@ -87,12 +87,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  url: https://github.com/executablebooks/jupyter-book # Online location of your book
   # path_to_book:   # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  branch: master # Which branch of the repository should be used when creating links (optional)
 
-
-
-
-
-    
