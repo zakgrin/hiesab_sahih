@@ -27,10 +27,11 @@ jobs:
           sudo apt-get install libglfw3-dev libgles2-mesa-dev
           pip install --upgrade pip
           pip install -r jupyterbook/requirements.txt
-          ls -la
+          pip --version
 
       - name: Build HTML
         run: |
+          pip --version
           cd jupyterbook/
           sphinx-build . ./_build/html -a -b html
           # make html
