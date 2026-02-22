@@ -27,15 +27,17 @@ jobs:
           # sudo apt-get install libglfw3-dev libgles2-mesa-dev
           pip install --upgrade pip
           pip install -r jupyterbook/requirements.txt
+          cd jupyterbook/
+          sphinx-build . ./_build/html -a -b html
 
       - name: Build HTML
         run: |
-          cd jupyterbook/
+          # cd jupyterbook/
           # make html
           # sphinx-build -b html . _build/html/ -a
           # sphinx-build . _build/html -a -b html
           # jupyter-book build jupyterbook/
-          sphinx-build . ./_build/html -a -b html
+          # sphinx-build . ./_build/html -a -b html
 
       - name: Run ghp-import
         run: |
