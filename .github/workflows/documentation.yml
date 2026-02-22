@@ -31,8 +31,7 @@ jobs:
       - name: Build HTML
         run: |
           cd jupyterbook/
-          jupyter-book build .
-          python -m jupyter_book build . --path-output .
+          jupyter book build --html .
           # make html
           # sphinx-build -b html . _build/html/ -a
           # sphinx-build . _build/html -a -b html
