@@ -7,9 +7,9 @@ author: "ابن يوسف زكريا الطرابلسي"
 announcement: "هذا البحث لا يزال قيد الإجراء"
 logo: ""
 only_build_toc_files: true
-exclude_patterns: [
-  chapters/01/*,
-]
+# exclude_patterns: [
+#   chapters/01/*,
+# ]
 
 #######################################################################################
 # Execution settings
