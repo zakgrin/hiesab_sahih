@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: a9a9b288-8853-403c-accf-3a8f657d4b40
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/zakgrin/hiesab_in_islam
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
