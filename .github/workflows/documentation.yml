@@ -1,6 +1,8 @@
 name: Build Documentation
 
+# Controls when the workflow will run
 on:
+  # [push, pull_request, workflow_dispatch]
   push:
     branches:
       - main
@@ -9,36 +11,45 @@ on:
     branches:
       - main
 
+  # permissions:
+  #   contents: write
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.11.9
+        uses: actions/setup-python@v2
         with:
-          python-version: "3.11"
-          architecture: x64
-          cache: "pip"
+          python-version: "3.11.9"
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Installation Process has started.
 
       - name: Install dependencies
         run: |
-          # sudo apt-get install libglfw3-dev libgles2-mesa-dev
-          pip install --upgrade pip
+          sudo apt-get install libglfw3-dev libgles2-mesa-dev
+          # sudo apt-get install libosmesa6-dev freeglut3-dev
+          # sudo apt install libosmesa6
+          python -m pip install --upgrade pip
           pip install -r jupyterbook/requirements.txt
-
       - name: Build HTML
         run: |
-          jupyter-book build jupyterbook/  
-          # cd jupyterbook/
-          # sphinx-build . ./_build/html -a -b html
+          cd jupyterbook/
           # make html
-          # sphinx-build -b html . _build/html/ -a
-          # sphinx-build . _build/html -a -b html
-          # jupyter-book build jupyterbook/
-
+          sphinx-build -b html . build/html/ -a
+          # sphinx-build jupyterbook jupyterbook/_build/html -a -b html
       - name: Run ghp-import
         run: |
-          python -m ghp_import -n -p -f jupyterbook/_build/html
+          ghp-import -n -p -f jupyterbook/build/html
