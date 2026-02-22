@@ -31,7 +31,7 @@ jobs:
       - name: Build HTML
         run: |
           cd jupyterbook/
-          jb build .
+          jupyter-book build .
           # jupyter book build --html .
           # make html
           # sphinx-build -b html . _build/html/ -a
