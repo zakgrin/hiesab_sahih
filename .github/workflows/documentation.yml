@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get install libglfw3-dev libgles2-mesa-dev
+          # sudo apt-get install libglfw3-dev libgles2-mesa-dev
           pip install --upgrade pip
           pip install -r jupyterbook/requirements.txt
 
