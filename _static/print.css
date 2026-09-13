@@ -1,0 +1,42 @@
+@page {
+    font-size: 10pt;
+    /* direction: rtl; */
+    margin-top: 1in;
+    margin-bottom: 0.5in;
+    margin-left: 0.3in;
+    margin-right: 0.3in;
+    
+    @top-right {
+        content: "الحساب الصحيح من بنيان الحكم الرشيد";
+        font-size: 12pt;
+        /* font-weight: bold; */
+    }
+
+    @top-left {
+        content: "ابن يوسف زكريا الطرابلسي";
+        font-size: 12pt;
+        /* font-weight: bold; */
+    }
+
+    @bottom-center {
+        content: counter(page);
+        font-size: 10pt;
+    }
+}
+
+@page:first {
+  @bottom-center {
+    content: normal; /* hide page number only page 1 */
+  }
+}
+
+@media print {
+    p {
+        font-size: 12pt; /* reduce font size only when printing */
+        /* text-align: justify; */
+    }
+
+    .bd-toc {
+        visibility: hidden;
+    }
+}
